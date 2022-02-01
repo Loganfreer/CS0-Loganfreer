@@ -6,8 +6,9 @@
  	This program prints ascii graphics on to the common output       /console/monitor.
 """
 
-print('    |\\_/|   	**********************    	 (\\_/)  ')
-print("   / @  @ \\  	*           Lab 1    	*       (='.'=) ")
-print('  (>  0 <  )                                  ( \" )_( \" )           ')
-
+print('    |\\_/|   	************************* 	 (\\_/)  ')
+print("   / @  @ \\  	*       ASCII Lab    	*       (='.'=) ")
+print('  (>  0 <  )    *   By: Logan Freerksen *     ( \" )_( \" )           ')
+print('    >>X<<       *       CSCI 110        *       ')
+print('    / O \\       *************************')
 #FIXME: finish the rest of the art (80 points)

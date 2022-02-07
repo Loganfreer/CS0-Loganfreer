@@ -11,4 +11,4 @@ print('''   / @ @ \\      *       ASCII Lab    	*       (='.'=) ''')
 print('  (>  0 < )     *   By: Logan Freerksen *     ( " )_( " )           ')
 print('    >>X<<       *       CSCI 110        *       ')
 print('    / O \\       *************************')
-#FIXME: finish the rest of the art (80 points)
+'''This is my finished ASCII art'''

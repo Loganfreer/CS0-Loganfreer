@@ -10,3 +10,8 @@ print(10%3)
 print(1000%24)
 print(1000//24)
 print(1000%24)
+age = input("How old are you?")
+print("You are", (age) , "years old")
+
+
+

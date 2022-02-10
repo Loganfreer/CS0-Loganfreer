@@ -12,17 +12,13 @@ Step 3: Print out BMI
 
 '''
 #Step 1
-weight = input("Please enter your weight in pounds: ")
-height = input("Please enter your height in inches: ")
-
-#Step 1a
-weight = float(weight)
-height = float(height)
+weight = float(input("Please enter your weight in pounds: "))
+height = float(input("Please enter your height in inches: "))
 
 #Step 2
-weight = weight/2.205
-height = height/39.37
-bmi = weight/height**2
+weight1 = weight/2.205
+height1 = height/39.37
+bmi = weight1/height1**2
 
 #Step 3
 print("Your BMI with weight", 

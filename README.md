@@ -22,7 +22,7 @@
 | Name | Egypt |
 | Description | [egypt problem on Kattis](https://open.kattis.com/problems/egypt) |
 | Due Date | 1-Feb-2020 |
-| Status | In-progress |
+| Status | Finished |
 | Location | https://github.com/rambasnet/csci000-astudent/tree/master/assignments/cpp/egypt |
 | Self Grade | - |
 | Notes | completed the solution; need to write test cases |

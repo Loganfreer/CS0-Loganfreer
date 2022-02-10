@@ -37,7 +37,7 @@
 | Logan Freerksen | 1 - ASCII Art |
 | Description | Lab making ASCII art, practicing print function |
 | Due Date | 15-Feb-22 |
-| Status | in-progress |
+| Status | Finished |
 | Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Labs%5Cascii/main.py
 | Self Grade | 100% |
 | Notes | Completed the art and added my name and date to the box as required |

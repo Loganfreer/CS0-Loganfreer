@@ -2,8 +2,8 @@
 
 ###
 # Circle - Basic Math - Lab
-# Updated By: FIXME1
-# Date: FIXME2
+# Updated By: Logan Freerksen #fixed#
+# Date: 02/10/22 #fixed#
 # CSCI 110
 #
 # This program prompts user to enter radius of a circle and calculates and displays area
@@ -29,9 +29,9 @@ radius = float(radius)  # convert string to float value
 area = math.pi * radius**2  # * is product and ** is power operator in Python
 
 # Step 4
-# FIXME3:
+#fixed#
 # calculate and store the circumference into a variable
-
+circumference = 2 * math.pi * radius
 # Display the calculated values with proper descriptions
 print("Radius of the circle =",  radius)
 

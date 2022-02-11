@@ -31,6 +31,7 @@ area = math.pi * radius**2  # * is product and ** is power operator in Python
 # Step 4
 #fixed#
 # calculate and store the circumference into a variable
+
 circumference = 2 * math.pi * radius
 # Display the calculated values with proper descriptions
 print("Radius of the circle =",  radius)
@@ -38,7 +39,8 @@ print("Radius of the circle =",  radius)
 # FIXME4: display area - already fixed for you! #fixed#
 print('Area of the circle =', area)
 
-# FIXME5: display circumference
+# #fixed#: display circumference
+print('Circmference of the cirlce =', circumference)
 
 # Verify/Test your program if the calculated results are correct
 # Run and test your program with different values for radius

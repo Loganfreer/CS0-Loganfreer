@@ -94,4 +94,4 @@ print('''
     |         /   \\             
 -------------
 ''')
-print('Thank you for watchoing!')
+print('Thank you for watching!')

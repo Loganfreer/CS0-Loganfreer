@@ -23,12 +23,12 @@ side2 = float(input('What is the length of side 2: '))
 side3 = float(input('Finally, what is the length of side 3: '))
 #Step 3
 s = (side1+side2+side3)/2
-area = (s(s-side1)(s-side2)(s-side3))**(1/2)
+area = ((s*(s-side1)*(s-side2)*(s-side3))**(1/2))
 #Step 4
 perim = side1+side2+side3
 #Step 5
 print('The area of the triangle is,',
-    area,' and the perimeter is',perim)
+    area,' and the perimeter is,',perim)
 print('Goodbye!')
 
 

@@ -13,6 +13,7 @@ Step 4: Calculate perimeter using side1, side2, and side3
 Step 5: Print out area and perimeter to user
 
 '''
+import math
 #Step 1
 Name = input("Hi there, what's your name? ")
 print('Hey there',Name)
@@ -23,7 +24,7 @@ side2 = float(input('What is the length of side 2: '))
 side3 = float(input('Finally, what is the length of side 3: '))
 #Step 3
 s = (side1+side2+side3)/2
-area = ((s*(s-side1)*(s-side2)*(s-side3))**(1/2))
+area = math.sqrt(s*(s-side1)*(s-side2)*(s-side3))
 #Step 4
 perim = side1+side2+side3
 #Step 5

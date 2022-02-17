@@ -32,12 +32,24 @@
 
 ### Lab #1
 
-| Logan Freerksen| Value |
+| Name | Value |
 | :--- | :--- |
-| Logan Freerksen | 1 - ASCII Art |
+| Name | 1 - ASCII Art |
 | Description | Lab making ASCII art, practicing print function |
 | Due Date | 15-Feb-22 |
 | Status | Finished |
 | Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Labs%5Cascii/main.py
 | Self Grade | 100% |
 | Notes | Completed the art and added my name and date to the box as required |
+
+### Lab #2
+
+| Name | Value |
+| :--- | :--- |
+| Name | 2 - Math and Std IO |
+| Description | Lab fixing the fix me's in a program that calculate and prints the area circumference of a circle using a given radius |
+| Due Date | 22-Feb-22 |
+| Status | Finished |
+| Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Labs%5Cascii/circle.py
+| Self Grade | 100% |
+| Notes | completed the fix me's required and the program runs efficently |

@@ -9,7 +9,7 @@
 | :--- | :--- |
 | Name | Hello World |
 | Description | A basic hello world program |
-| Due Date | 1-Jan-20 |
+| Due Date | 14-Feb-22 |
 | Status | Done |
 | Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/hello.py|
 | Self Grade | 100/100 |
@@ -19,13 +19,13 @@
 
 | Name | Value |
 | :--- | :--- |
-| Name | Egypt |
-| Description | [egypt problem on Kattis](https://open.kattis.com/problems/egypt) |
-| Due Date | 1-Feb-2020 |
-| Status | In Progress |
-| Location |     |
-| Self Grade | - |
-| Notes | completed the solution; need to write test cases |
+| Name | Std Input/Output |
+| Description | Program that greetrs users using their names and prints out the stages of the game hangman  |
+| Due Date | 21-Feb-2022 |
+| Status | Finished |
+| Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Lectures/stdio.py |
+| Self Grade | 110% |
+| Notes | The program runs successfully |
 
 
 ## Labs

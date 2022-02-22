@@ -20,8 +20,8 @@ Name = input("Hi there, what's your name? ")
 print('Hey there',Name)
 print("Let's calculate the area and perimeter of a triangle for you!")
 
-def valid_triangle_function(a,b,c):
-    if a+b>=c and b+c>=a and a+c>=b:
+def valid_triangle_function(s1,s2,s3):
+    if s1+s2>=s3 and s2+s3>=s1 and s1+s3>=s2:
         return True
     else:
         return False
@@ -38,9 +38,12 @@ if valid_triangle_function(side1, side2, side3):
 else:
     print("Given inputs do not form a triangle, sorry :'(")
 
+
 #Step 3
 s = (side1+side2+side3)/2
 area = math.sqrt(s*(s-side1)*(s-side2)*(s-side3))
+
+
 #Step 4
 perim = side1+side2+side3
 #Step 5

@@ -10,7 +10,7 @@ Step 1: Define function that takes in two numebrs and returns the sum
 Step 2: Define function that takes in two numbers and returns the product
 Step 3: Define function that takes in two numbers and returns the quotient
 Step 4: Define function that takes in two numbers and returns the difference
-Step 5: Define a finction that takes in two numbers and returns the 
+Step 5: Define a function that takes in two numbers and returns the 
         remainder of the quotient
 Step 6: Define function that takes in two numbers and returns the first number
         to the power of the second
@@ -21,5 +21,92 @@ Step 9: Call all of the functions using the user entered parameters
 Step 10: Write a test function for each function using at least two cases
 Step 11: *Bonus* Define a function that returns the larger of the two numbers 
 '''
+import math
 #Step 1
-def add
+def addition_function(a, b):
+    _sum_ = 0
+    _sum_ = a + b
+    return _sum_
+
+#Step 2
+def multiply_function(c, d):
+    _product_ = 0
+    _product_ = c * d
+    return _product_
+
+#Step 3
+def divide_function(e, f):
+    _quotient_ = 0
+    _quotient_ = e / f
+    return _quotient_
+
+#Step 4
+def subtract_function(g, h):
+    _difference_ = 0
+    _difference_ = g - h 
+    return _difference_
+
+#Step 5
+def mod_function(i, j):
+    _mod_ = 0 
+    _mod_ = i % j
+    return _mod_
+
+#Step 6
+def power_function(k, l):
+    _power_ = 0
+    _power_ = k ** l 
+    return _power_
+
+#Step 7
+def root_function(m):
+    _root_ = 0
+    _root_ = math.sqrt(m)
+    return _root_
+
+#Step 8
+number1 = float(input('Please enter one number: '))
+number2 = float(input('Please enter another number: '))
+
+print('The program will now compute some operations on the numbers you have provided...')
+
+#Step 9
+print(addition_function(number1, number2))
+
+print(multiply_function(number1, number2))
+
+print(divide_function(number1, number2))
+
+print(subtract_function(number1, number2))
+
+print(mod_function(number1, number2))
+
+print(power_function(number1, number2))
+
+print(root_function(number1))
+
+#Step 10
+def test_add():
+    assert addition_function(1,4) == 6
+    assert addition_function(4,9) == 13
+
+def test_mult():
+    assert multiply_function(3,9) == 27
+    assert multiply_function(2,5) == 10
+
+def test_div():
+    assert divide_function(72,6) == 12
+    assert divide_function(9,3) == 3
+
+def test_sub():
+    assert subtract_function(9,5) == 4
+    assert subtract_function(50,10) == 40
+
+def test_pow():
+    assert power_function(2,3) == 3
+    assert power_function(5,2) == 25
+
+def test_root():
+    assert root_function(25) == 5
+    assert root_function(81) == 9
+    

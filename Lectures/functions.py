@@ -23,12 +23,43 @@ Step 11: *Bonus* Define a function that returns the larger of the two numbers
 '''
 import math
 #Step 1
+
+
+def test_add():
+    assert addition_function(1,4) == 5
+    assert addition_function(2,9) == 11
+
+def test_mult():
+    assert multiply_function(3,9) == 27
+    assert multiply_function(2,5) == 10
+
+def test_div():
+    assert divide_function(72,6) == 12
+    assert divide_function(9,3) == 3
+
+def test_sub():
+    assert subtract_function(9,5) == 4
+    assert subtract_function(50,10) == 40
+
+def test_mod():
+    assert mod_function(5,10) == 5
+    assert mod_function(10,3) == 1
+
+def test_pow():
+    assert power_function(2,3) == 3
+    assert power_function(5,2) == 25
+
+def test_root():
+    assert root_function(25) == 5
+    assert root_function(81) == 9
+
+
 def addition_function(a, b):
     test_add()
     _sum_ = 0
     _sum_ = a + b
     return _sum_
-
+    
 #Step 2
 def multiply_function(c, d):
     test_mult()

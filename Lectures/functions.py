@@ -107,6 +107,8 @@ def main():
 
 main()
 
+print('For the bonus points, this program will now tell you which number is larger')
+
 #Step 11
 def larger_number(x, y):
     if x>y:

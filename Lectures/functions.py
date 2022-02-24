@@ -23,143 +23,103 @@ Step 11: *Bonus* Define a function that returns the larger of the two numbers
 '''
 import math
 #Step 1
-
-
-def test_add():
-    assert addition_function(1,4) == 5
-    assert addition_function(2,9) == 11
-
-def test_mult():
-    assert multiply_function(3,9) == 27
-    assert multiply_function(2,5) == 10
-
-def test_div():
-    assert divide_function(72,6) == 12
-    assert divide_function(9,3) == 3
-
-def test_sub():
-    assert subtract_function(9,5) == 4
-    assert subtract_function(50,10) == 40
-
-def test_mod():
-    assert mod_function(5,10) == 5
-    assert mod_function(10,3) == 1
-
-def test_pow():
-    assert power_function(2,3) == 3
-    assert power_function(5,2) == 25
-
-def test_root():
-    assert root_function(25) == 5
-    assert root_function(81) == 9
-
-
 def addition_function(a, b):
-    test_add()
     _sum_ = 0
     _sum_ = a + b
     return _sum_
     
 #Step 2
 def multiply_function(c, d):
-    test_mult()
     _product_ = 0
     _product_ = c * d
     return _product_
 
 #Step 3
 def divide_function(e, f):
-    test_div()
     _quotient_ = 0
     _quotient_ = e / f
     return _quotient_
 
 #Step 4
 def subtract_function(g, h):
-    test_sub()
     _difference_ = 0
     _difference_ = g - h 
     return _difference_
 
 #Step 5
 def mod_function(i, j):
-    test_mod()
     _mod_ = 0 
     _mod_ = i % j
     return _mod_
 
 #Step 6
 def power_function(k, l):
-    test_pow()
     _power_ = 0
     _power_ = k ** l 
     return _power_
 
 #Step 7
 def root_function(m):
-    test_root()
     _root_ = 0
     _root_ = math.sqrt(m)
     return _root_
 
-#Step 8
-number1 = float(input('Please enter one number: '))
-number2 = float(input('Please enter another number: '))
-
-print('The program will now compute some operations on the numbers you have provided...')
-
-#Step 9
-print(addition_function(number1, number2))
-
-print(multiply_function(number1, number2))
-
-print(divide_function(number1, number2))
-
-print(subtract_function(number1, number2))
-
-print(mod_function(number1, number2))
-
-print(power_function(number1, number2))
-
-print(root_function(number1))
-
 #Step 10
-def test_add():
+def test():
     assert addition_function(1,4) == 5
     assert addition_function(2,9) == 11
-
-def test_mult():
     assert multiply_function(3,9) == 27
     assert multiply_function(2,5) == 10
-
-def test_div():
     assert divide_function(72,6) == 12
     assert divide_function(9,3) == 3
-
-def test_sub():
     assert subtract_function(9,5) == 4
     assert subtract_function(50,10) == 40
-
-def test_mod():
     assert mod_function(5,10) == 5
     assert mod_function(10,3) == 1
-
-def test_pow():
-    assert power_function(2,3) == 3
+    assert power_function(2,3) == 8
     assert power_function(5,2) == 25
-
-def test_root():
     assert root_function(25) == 5
     assert root_function(81) == 9
 
+def main():
+    test()
+    print('The program will compute mathematical operations on the numbers you provide...')
+    #Step 8
+    global number1
+    global number2
+    number1 = float(input('Please enter one number: '))
+    number2 = float(input('Please enter another number: '))
+    #Step 9
+    sum_ = addition_function(number1, number2)
+
+    product_ = multiply_function(number1, number2)
+
+    quotient_ = divide_function(number1, number2)
+
+    difference_ = subtract_function(number1, number2)
+
+    mod_ = mod_function(number1, number2)
+
+    pow_ = power_function(number1, number2)
+
+    root_ = root_function(number1)
+    print(f'''The sum is {sum_}, \nThe product is {product_}, \nThe quotient is {quotient_}, \nThe differencce is {difference_}, \nThe remainder of {number1} and {number2} is {mod_},\n{number1} to the power of {number2} is {pow_},\nAnd finally the root of {number1} is {root_}''')
+
+main()
+
 #Step 11
-def larger_function(n, o):
-    if n > o:
+def larger_number(x, y):
+    if x>y:
         return True
     else:
         return False
 
-if larger_function(number1, number2):
-    print(number1, 'Is larger than', number2)
+if larger_number(number1, number2):
+    print(f'{number1} is larger than {number2}')
 else:
-    print(number2, 'Is larger than', number1)
+    print(f'{number2} is larger than {number1}')
+
+
+
+
+

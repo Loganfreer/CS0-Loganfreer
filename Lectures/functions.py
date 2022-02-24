@@ -91,17 +91,11 @@ def main():
     number2 = float(input('Please enter another number: '))
     #Step 9
     sum_ = addition_function(number1, number2)
-
     product_ = multiply_function(number1, number2)
-
     quotient_ = divide_function(number1, number2)
-
     difference_ = subtract_function(number1, number2)
-
     mod_ = mod_function(number1, number2)
-
     pow_ = power_function(number1, number2)
-
     root_ = root_function(number1)
     print(f'''The sum is {sum_}, \nThe product is {product_}, \nThe quotient is {quotient_}, \nThe differencce is {difference_}, \nThe remainder of {number1} and {number2} is {mod_},\n{number1} to the power of {number2} is {pow_},\nAnd finally the root of {number1} is {root_}''')
 

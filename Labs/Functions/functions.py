@@ -1,9 +1,9 @@
 ###
 # Functions Lab
-# Updated By: FIXME1
+# Updated By: Logan Freerksen FIXME1#fixed#
 #
 # CSCI 110
-# Date: FIXME2
+# Date: 02/24/22 FIXME2#fixed#
 #
 # Playing with functions and variables scopes.
 # There are 10 FIXMEs each worth 10 points!
@@ -13,7 +13,7 @@
 someName = "Bill Gates"  # someName is global variable
 
 # FIXME3 - Assign your name to myName variable
-myName = "FIXME3"
+myName = 'Logan Freerksen' #FIXME3#fixed#
 # myName is a global variable
 
 

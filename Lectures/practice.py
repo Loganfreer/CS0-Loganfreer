@@ -55,7 +55,7 @@ def test():
     assert multiply_nums(2, 6) == 12
     assert multiply_nums(5, 10) == 50
 
-def main():
+def dick():
     #step 3
     test()
     number1 = float(input("Please enter a number: "))
@@ -63,7 +63,16 @@ def main():
     answer = multiply_nums(number1,number2)
     print(f'{number1} * {number2} = {answer}')
 
-main()
+dick()
  
+def main():
+    money = int(input(f'How much money have you saved: '))
+    ferrari = input(f'Do you have a ferrari? [y/yes | n/no]: ')
 
+    if(money >= 1000000 and (ferrari == 'y' or ferrari == 'yes')):
+        print('Congrats you can retire!')
+    else: 
+        print('Go back to work')
+
+main()
 

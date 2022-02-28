@@ -75,17 +75,19 @@ def findSeconds(hours):
     Define a function named findSeconds that takes hours as 1 integer argument.
     The function converts hours into seconds and returns it
     """
-    # FIXME4 convert hours into seconds and update seconds variable
+    # FIXME4 convert hours into seconds and update seconds variable #fixed#
     # Hint: there are 3600 seconds in 1 hour
-    seconds = 0
+    seconds = hours * 3600
     return seconds
 
 
 def testFunctions():
     # test1 : # for 1 hour == 3600 seconds
     assert(findSeconds(1) == 3600)
-    # FIXME5 - write 3 more tests cases for findSeconds function
-
+    # FIXME5 - write 3 more tests cases for findSeconds function #fixed#
+    assert findSeconds(2) == 7200
+    assert findSeconds(.5) == 1800
+    assert findSeconds(3) == 10800
     print('all test cases passed...')
 
 
@@ -93,8 +95,8 @@ def testFunctions():
 printHello()
 
 
-# FIXME7 - call printHelloTwice function
-
+# FIXME7 - call printHelloTwice function #fixed#
+printHelloTwice()
 
 greetName(someName)  # calling function passing variable as argument
 greetName("Larry Page")  # calling function passing literal value as argument
@@ -106,8 +108,14 @@ meetAndGreet()
 # call function convertTime passing proper argument
 convertTime(60)
 
-# FIXME8 - Call converTime function passing 3600 as seconds
+# FIXME8 - Call converTime function passing 3600 as seconds #fixed#
 
-# FIXME9 - Call converTime function passing 3661 as seconds
+convertTime(3600)
 
-# FIXME10 - Call testFunctions
+# FIXME9 - Call converTime function passing 3661 as seconds #fixed#
+
+convertTime(3661)
+
+# FIXME10 - Call testFunctions #fixed#
+
+testFunctions()

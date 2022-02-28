@@ -27,6 +27,16 @@
 | Self Grade | 110% |
 | Notes | The program runs successfully |
 
+| Name | Value |
+| :--- | :--- |
+| Name | Triangle |
+| Description | Program that greetrs users using their names and askes for three sides of a triangle and calculates area and perimeter  |
+| Due Date | 28-Feb-2022 |
+| Status | Finished |
+| Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Lectures/triangle.py |
+| Self Grade | 110% |
+| Notes | The program runs successfully |
+
 
 ## Labs
 

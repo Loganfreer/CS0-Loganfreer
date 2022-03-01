@@ -32,7 +32,7 @@ def multiply_nums(n1, n2, n3, n4, n5):
 
 #Step 3
 def average_nums(N1, N2, N3, N4, N5):
-    _average_ = multiply_nums(N1, N2, N3, N4, N5) / 5
+    _average_ = add_nums(N1, N2, N3, N4, N5) / 5
     return _average_
 
 #Step 4
@@ -75,15 +75,16 @@ def main():
     test()
     num1 = float(input('Please enter a number: '))
     num2 = float(input('Please enter a second number: '))
-    num3 = float(input('Please enter a third number'))
+    num3 = float(input('Please enter a third number: '))
     num4 = float(input('Please enter a fourth number: '))
     num5 = float(input('Finally, enter a fifth number: '))
+    print('\n')
     _sum = (add_nums(num1, num2, num3, num4, num5))
     _product = (multiply_nums(num1, num2, num3, num4, num5))
     _average = (average_nums(num1, num2, num3, num4, num5))
-    _max = (max_function(num1, num2, num3, num4, num5))
-    _min = (min_function(num1, num2, num3, num4, num5))
-    print(f'The sum of the number is {_sum}\n The product is {_product}\n The average is {_average}\ {_max}\n {_min}')
+    (max_function(num1, num2, num3, num4, num5))
+    (min_function(num1, num2, num3, num4, num5))
+    print(f'The sum of the number is {_sum}\nThe product is {_product}\nThe average is {_average}')
 
 main()
 

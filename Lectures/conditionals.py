@@ -85,6 +85,7 @@ def main():
     (max_function(num1, num2, num3, num4, num5))
     (min_function(num1, num2, num3, num4, num5))
     print(f'The sum of the number is {_sum}\nThe product is {_product}\nThe average is {_average}')
+    print('Goodbye!')
 
 main()
 

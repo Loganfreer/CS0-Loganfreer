@@ -80,6 +80,7 @@ def test():
     assert power_function(5,2) == 25
     assert root_function(25) == 5
     assert root_function(81) == 9
+    print('All test cases have passed...')
 
 def main():
     test()

@@ -63,3 +63,15 @@
 | Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Labs%5Cascii/circle.py
 | Self Grade | 100% |
 | Notes | completed the fix me's required and the program runs efficently |
+
+### Lab #
+
+| Name | Value |
+| :--- | :--- |
+| Name | 3 - Functions|
+| Description | Lab fixing the fix me's in a program that define and call functions |
+| Due Date | 8-Mar-22 |
+| Status | Finished |
+| Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Labs/Functions/functions.py |
+| Self Grade | 100% |
+| Notes | completed the fix me's required and the program runs efficently |

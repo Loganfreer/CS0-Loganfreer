@@ -64,7 +64,7 @@
 | Self Grade | 100% |
 | Notes | completed the fix me's required and the program runs efficently |
 
-### Lab #
+### Lab 3
 
 | Name | Value |
 | :--- | :--- |

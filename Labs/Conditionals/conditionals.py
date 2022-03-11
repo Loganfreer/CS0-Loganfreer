@@ -61,7 +61,7 @@ def isZero(num):
     else:
         return False
 
-# FXIME5:
+# FXIME5: #fixed#
 # Define a function that takes in a string name argument
 # function greets the name by printing, e.g.: Hello, John! Welcome onboard...
 def whatsName():
@@ -141,7 +141,7 @@ def main():
 
 def test():
     # test function to test other functions
-    # FIXME10
+    # FIXME10 #fixed#
     assert isEven(42) == True
     assert isPositive(-9) == False
     assert isZero(3) == False

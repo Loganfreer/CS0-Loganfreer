@@ -27,6 +27,7 @@
 | Self Grade | 110% |
 | Notes | The program runs successfully |
 
+### Assignment 3
 | Name | Value |
 | :--- | :--- |
 | Name | Triangle |

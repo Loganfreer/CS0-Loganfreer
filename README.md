@@ -38,6 +38,17 @@
 | Self Grade | 110% |
 | Notes | The program runs successfully |
 
+### Assignment 4
+| Name | Value |
+| :--- | :--- |
+| Name | Functions |
+| Description | Program that asks user for five numbers and oerforms mathematical operations on the numbers and prints results |
+| Due Date | 14-Mar-2022 |
+| Status | Finished |
+| Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Lectures/Assignments/functions.py |
+| Self Grade | 110% |
+| Notes | The program runs successfully |
+
 
 ## Labs
 

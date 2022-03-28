@@ -49,6 +49,16 @@
 | Self Grade | 110% |
 | Notes | The program runs successfully |
 
+### Assignment 5
+| Name | Value |
+| :--- | :--- |
+| Name | Conditionals |
+| Description | Program that asks user for five numbers and give the max and min of the set, as well as the sum, product, and average of the numbers |
+| Due Date | 28-Mar-2022 |
+| Status | Finished |
+| Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Lectures/triangle.py |
+| Self Grade | 100% |
+| Notes | The program runs successfully |
 
 ## Labs
 

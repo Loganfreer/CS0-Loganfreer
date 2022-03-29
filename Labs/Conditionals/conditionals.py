@@ -100,7 +100,7 @@ def main():
     while True:
         # clear the screen for subsequent use
         clearScreen()
-        # FIXME7: call function defined in FIXME5 to greet the user
+        # FIXME7: call function defined in FIXME5 to greet the user #fixed#
         user = whatsName()
         greet(user)
         print(f"Enter a whole number, {user}:")
@@ -130,12 +130,14 @@ def main():
 
         answer = input(
             "Would you like to check another number? Enter y or yes; anything else to quit: ")
-        if answer == ('y' or 'yes'):
+        if answer == 'y':
             # FIXME9 - make the progrom continue to run if user entered yes
             #fixed#
             continue
+        elif answer == 'yes':
+            continue
         else:
-                print('Thanks for using the program, {}! Good bye...'.format(user))
+            print('Thanks for using the program, {}! Good bye...'.format(user))
         break
 
 

@@ -56,7 +56,7 @@
 | Description | Program that asks user for five numbers and give the max and min of the set, as well as the sum, product, and average of the numbers |
 | Due Date | 28-Mar-2022 |
 | Status | Finished |
-| Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Lectures/triangle.py |
+| Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Lectures/Assignments/conditionals.py |
 | Self Grade | 100% |
 | Notes | The program runs successfully |
 
@@ -95,5 +95,17 @@
 | Due Date | 8-Mar-22 |
 | Status | Finished |
 | Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Labs/Functions/functions.py |
+| Self Grade | 100% |
+| Notes | completed the fix me's required and the program runs efficently |
+
+### Lab 4
+
+| Name | Value |
+| :--- | :--- |
+| Name | 3 - conditionals|
+| Description | Lab fixing the fix me's in a program that define and call functions. Function asks users for their names and a number, and retyrns whether the number is even or odd |
+| Due Date | 29-Mar-22 |
+| Status | Finished |
+| Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Labs/Conditionals/conditionals.py |
 | Self Grade | 100% |
 | Notes | completed the fix me's required and the program runs efficently |

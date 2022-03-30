@@ -16,8 +16,10 @@ def input_string():
     inputed_string = input("Please enter a string to see if it is a palendrome: ")
     return inputed_string
 
+
+
 def is_palendrome(in_string):
-    for ch in range(len(in_string)):
+    for ch in range(len(in_string)//2):
         #print(f'ch = {in_string[ch]}')
         if (in_string[ch] != in_string[-ch-1]):
             print(f'{in_string} is not a palendrome!')

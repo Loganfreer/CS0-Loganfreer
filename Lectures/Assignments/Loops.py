@@ -33,32 +33,37 @@ def choose_number():
     num = random.randrange(1,21)
     return num
 
+       
 def main():
     user = ask_name()
     greet_user(user)
     game_num = choose_number()
-    KeepRunnin = True
-    attempt = 0
-    while(KeepRunnin):
+    attempt = 1
+
+    while(attempt <= 6):
         guess = int(input('Please enter an integer between 1 and 20: '))
-        if guess == game_num:
+        if attempt == 6:
+            print(f'Sorry, looks like you ran out of tries, the game number was {game_num}')
+            print('Better luck next time')
+        elif guess == game_num:
             print(f'Congradulations! you guessed the number {user}')
             print(f'The game number was {game_num}')
-            print(f'It took you {attempt} amount of times to get it')
-            KeepRunnin = False
-        else:
-            if guess > game_num:
-                print('Oops, looks like your guess was to high')
-                attempt = +1
-                continue
-            elif guess < game_num:
-                print('Oops, looks like your guess was too low')
-                attempt = +1
-                continue
-        if attempt == 6:
-            print("Oops, looks like you couldn't get it, better luck next time")
-            print(f'The game number was {game_num}')
+            print(f'It took you {attempt} tries to get it')
             break
+        elif guess > game_num:
+            print('Oops, looks like your guess was to high')
+            attempt += 1
+            continue
+        elif guess < game_num:
+            print('Oops, looks like your guess was too low')
+            attempt += 1
+            continue
+        elif attempt == 6:
+            print(f'Sorry, looks like you ran out of tries, the game number was {game_num}')
+            print('Better luck next time')
+
+
+            
         
 main()
 

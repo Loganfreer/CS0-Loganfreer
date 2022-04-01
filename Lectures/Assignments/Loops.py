@@ -33,10 +33,9 @@ def choose_number():
     num = random.randrange(1,21)
     return num
 
-       
+user = ask_name()
+greet_user(user)      
 def main():
-    user = ask_name()
-    greet_user(user)
     game_num = choose_number()
     attempt = 1
 

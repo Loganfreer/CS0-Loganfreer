@@ -45,6 +45,7 @@ def main():
         if attempt == 6:
             print(f'Sorry, looks like you ran out of tries, the game number was {game_num}')
             print('Better luck next time')
+            break
         elif guess == game_num:
             print(f'Congradulations! you guessed the number {user}')
             print(f'The game number was {game_num}')
@@ -58,13 +59,19 @@ def main():
             print('Oops, looks like your guess was too low')
             attempt += 1
             continue
-        elif attempt == 6:
-            print(f'Sorry, looks like you ran out of tries, the game number was {game_num}')
-            print('Better luck next time')
 
-
-            
         
 main()
+
+play_again = True
+while (play_again):
+    answer = input('Would you like to play again [y/n]? ')
+    if answer == 'y':
+        main()
+    elif answer == 'yes':
+        main()
+    else:
+        print('Goodbye!')
+        break
 
     

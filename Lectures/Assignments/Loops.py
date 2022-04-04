@@ -65,9 +65,9 @@ main()
 play_again = True
 while (play_again):
     answer = input('Would you like to play again [y/n]? ')
-    if answer == 'y':
+    if answer.lower == 'y':
         main()
-    elif answer == 'yes':
+    elif answer.lower == 'yes':
         main()
     else:
         print('Goodbye!')

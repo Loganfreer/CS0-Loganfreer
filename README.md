@@ -60,6 +60,17 @@
 | Self Grade | 100% |
 | Notes | The program runs successfully |
 
+### Assignment 6
+| Name | Value |
+| :--- | :--- |
+| Name | Loops |
+| Description | Program that greets users using their name and runs them through a guess the number game, providing if the number was too low or too high. The user gets six tries and after that the game is over |
+| Due Date | 4-Apr-2022 |
+| Status | Finished |
+| Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Lectures/Assignments/Loops.py|
+| Self Grade | 110% |
+| Notes | The program runs successfully |
+
 ## Labs
 
 ### Lab #1

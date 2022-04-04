@@ -71,6 +71,6 @@ while (play_again):
         main()
     else:
         print('Goodbye!')
-        break
+        play_again = False
 
     

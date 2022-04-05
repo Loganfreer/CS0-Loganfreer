@@ -32,9 +32,12 @@ def printFlippedTriangle(height):
     * *
     *
     """
-
-    # FIXME3 ...
-    pass
+    tri_height = range(height+1)
+    for i in tri_height:
+        print('* '*tri_height[-i])
+    print()
+    # FIXME3 ... fixed
+    
 
 
 # FIXME4
@@ -48,7 +51,12 @@ def printFlippedTriangle(height):
 *  *  *  *  *   
 *  *  *  *  *   
 """
-
+#fixed
+def printsquare(height):
+    i = 1
+    while i <= height:
+        print('* '*height)
+        i += 1
 def clearScreen():
     """
     function to clear screen based on the operating system
@@ -60,25 +68,34 @@ def clearScreen():
 
 def main():
     # FIXME7 add a loop to make the program to continue to run until the user wants to quit
-    # FIXME8 call clearScreen function to clear the screen for each round of the loop
+    #fixed
+    KeepRunning = True
+    while(KeepRunning):
+        # FIXME8 call clearScreen function to clear the screen for each round of the loop
+        #fixed
+        clearScreen()
+        print('Program prints geometric shapes of given height with *')
+        height = int(input('Please enter the height of the shape: '))
+        # call printTriangle function passing user entered height
+        printTriangle(height)
 
-    print('Program prints geometric shapes of given height with *')
-    height = int(input('Please enter the height of the shape: '))
-    # call printTriangle function passing user entered height
-    printTriangle(height)
+        # FIXME5 fixed
+        # Call printFlippedTriangle passing proper argument
+        printFlippedTriangle(height)
+        # Manually test the function
 
-    # FIXME5
-    # Call printFlippedTriangle passing proper argument
+    # FIXME6 fixed
+        printsquare(height)
     # Manually test the function
 
-    # FIXME6
-    # Call the function defined in FIXME4 passing proper argument
-    # Manually test the function
-
-    # FIXME9
+    # FIXME9 fixed
     # prompt user to enter y/Y to continue anything else to quit
-
-    # FIXME10
+        answer = input('Would You like to run the program again [Y/N]? ')
+        if answer.lower() == 'y' or answer.lower() == 'yes':
+            KeepRunning = True
+        else:
+            KeepRunning = False
+    # FIXME10 fixed
     # Use conditional statements to break the loop or continue in the loop
 
 

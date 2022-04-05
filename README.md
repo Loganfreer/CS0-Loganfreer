@@ -113,10 +113,22 @@
 
 | Name | Value |
 | :--- | :--- |
-| Name | 3 - conditionals|
+| Name | 4 - conditionals|
 | Description | Lab fixing the fix me's in a program that define and call functions. Function asks users for their names and a number, and retyrns whether the number is even or odd |
 | Due Date | 29-Mar-22 |
 | Status | Finished |
 | Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Labs/Conditionals/conditionals.py |
+| Self Grade | 100% |
+| Notes | completed the fix me's required and the program runs efficently |
+
+### Lab 5
+
+| Name | Value |
+| :--- | :--- |
+| Name | 5 - Loops|
+| Description | Lab fixing the fix me's in a program that define and call functions. Function asks user for the height of a shape, and prints off three different shapes using astrics and user entered height |
+| Due Date | 6-Apr-22 |
+| Status | Finished |
+| Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Labs/Loops/loops.py |
 | Self Grade | 100% |
 | Notes | completed the fix me's required and the program runs efficently |

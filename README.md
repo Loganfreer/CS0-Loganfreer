@@ -71,6 +71,16 @@
 | Self Grade | 110% |
 | Notes | The program runs successfully |
 
+### Assignment 7
+| Name | Value |
+| :--- | :--- |
+| Name | Avion |
+| Description | Program that solves the Avion Kattis problem |
+| Due Date | 11-Apr-2022 |
+| Status | Finished |
+| Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Lectures/Assignments/Avion.py |
+| Self Grade | 110% |
+| Notes |  |
 ## Labs
 
 ### Lab #1

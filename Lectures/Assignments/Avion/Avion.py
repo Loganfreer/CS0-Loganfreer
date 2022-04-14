@@ -20,7 +20,7 @@ def create_list(a,b,c,d,e):
 def FBI_test(inp_uts):
     b = ""
     for i in range(len(inp_uts)):
-        if 'FBI' in inp_uts[i]:
+        if 'FBI' in inp_uts[i]: 
             b += str(i+1) + " "
     if b == "":
         return 'HE GOT AWAY!'

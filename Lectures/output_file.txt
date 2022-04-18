@@ -1,0 +1,2 @@
+This is how you create a new file and write in it from python
+2 + 5 = 7

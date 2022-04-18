@@ -142,3 +142,15 @@
 | Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Labs/Loops/loops.py |
 | Self Grade | 100% |
 | Notes | completed the fix me's required and the program runs efficently |
+
+### Lab 6
+
+| Name | Value |
+| :--- | :--- |
+| Name | 6 - Strings|
+| Description | Lab fixing the fix me's in a program that define and call functions. Function defines the different type of characters and style of strings that are inpured by a user|
+| Due Date | 19-Apr-22 |
+| Status | Finished |
+| Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Labs/Strings/strings.py |
+| Self Grade | 100% |
+| Notes | completed the fix me's required and the program runs efficently |

@@ -34,9 +34,12 @@ def splitting_up(sorted_list):
     return AliceSum, BobSum
 
 def test():
-    pass
+    assert splitting_up([1, 2, 2, 1]) == (3, 3)
+    assert splitting_up([6, 4, 3]) == (9, 4)
+    print("All test cases passed!")
 
 def main():
+    #test()
     input()
     elements = input()
     element_list = create_list(elements)

@@ -81,6 +81,18 @@
 | Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Lectures/Assignments/Avion.py |
 | Self Grade | 110% |
 | Notes |  |
+
+### Assignment 8
+| Name | Value |
+| :--- | :--- |
+| Name | Falling Apart |
+| Description | Program that solves the Falling Apart Kattis problem |
+| Due Date | 11-Apr-2022 |
+| Status | Finished |
+| Location | https://github.com/Loganfreer/CS0-Loganfreer/tree/main/Lectures/Assignments/Falling%20Apart |
+| Self Grade | 110% |
+| Notes |  |
+
 ## Labs
 
 ### Lab #1

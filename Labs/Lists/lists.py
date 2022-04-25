@@ -28,14 +28,15 @@ def getIntegers():
 
 
 def sortListInAscendingOrder(intList):
-    intList.sort()
-    return intList
+    newINTS = intList.copy()
+    newINTS.sort()
+    return newINTS
 
 
 def sortListInDescendingOrder(intList):
-    
-    intList.sort(reverse=True) #fixed
-    return intList
+    desINTS = intList.copy()
+    desINTS.sort(reverse = True)#fixed
+    return desINTS
     
 
 
@@ -65,7 +66,7 @@ def main():
     print(f"The largest number is: {descending[0]}") #fixed
     # Print the largest number
     
-    print(f"The smallest number is: {ascending[9]}") #fixed
+    print(f"The smallest number is: {ascending[0]}") #fixed
     # Print the smallest number
     
     print(f"The index of the smallest number is: {integers.index(ascending[0])} ") #fixed

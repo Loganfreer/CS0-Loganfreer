@@ -166,3 +166,15 @@
 | Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Labs/Strings/strings.py |
 | Self Grade | 100% |
 | Notes | completed the fix me's required and the program runs efficently |
+
+### Lab 7
+
+| Name | Value |
+| :--- | :--- |
+| Name | 6 - Lists|
+| Description | Lab fixing the fix me's in a program that define and call functions. The functions call for built in functions attached to lists in order to sort a list of integers in ascending and descending order. And the largest and smallest numbers and their indexes are identified|
+| Due Date | 26-Apr-22 |
+| Status | Finished |
+| Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Labs/Lists/lists.py |
+| Self Grade | 100% |
+| Notes | completed the fix me's required and the program runs efficently |

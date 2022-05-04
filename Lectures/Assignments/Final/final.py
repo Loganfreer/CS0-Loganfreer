@@ -21,7 +21,7 @@ def game(game_word):
     |
     | 
     |				              
--------------''', '''
+    -------------''', '''
     |__________________ 						
     |/        ___|___
     | 	     | X  X |
@@ -46,8 +46,8 @@ def game(game_word):
     |           |
     | 	
     |			              
--------------
-''', '''
+    -------------
+    ''', '''
     |__________________ 						
     |/        ___|___
     | 	     | X  X |
@@ -59,8 +59,8 @@ def game(game_word):
     |           |
     | 	
     |			              
--------------
-''', '''
+    -------------
+    ''', '''
     |__________________ 						
     |/        ___|___
     | 	     | X  X |
@@ -85,8 +85,8 @@ def game(game_word):
     |           |
     | 	       / 
     |         /                
--------------
-''', '''
+    -------------
+    ''', '''
     |__________________ 						
     |/        ___|___
     | 	     | X  X |
@@ -98,19 +98,23 @@ def game(game_word):
     |           |
     | 	       / \\
     |         /   \\             
--------------
-''']
+    -------------
+    ''']
     attempts = 0
     wrong_guessed = ''
-    #while (attempts <= 6):
-        #guess = input("Guess a letter of the alpabet that you think is in the mystery word: ")
-    print(f"{stages[0]}")
-        #if guess in game_word:
-            #print("Good job!")
-        #else:
-            #print("oops that didnt seem quite right")
-            #print(f'{wrong_guessed + guess}')
-            #print()
+    
+    while (attempts <= 6):
+        guess = input("Guess a letter of the alpabet that you think is in the mystery word: ")
+        if guess in game_word:
+            print("Good job!")
+
+        else:
+            print("oops that didnt seem quite right")
+            attempts += 1
+            print(stages[attempts-1])
+            wrong_guessed = wrong_guessed + guess
+            print(f'{wrong_guessed}')
+        
 
 
 def main():

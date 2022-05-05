@@ -178,3 +178,15 @@
 | Location | https://github.com/Loganfreer/CS0-Loganfreer/blob/main/Labs/Lists/lists.py |
 | Self Grade | 100% |
 | Notes | completed the fix me's required and the program runs efficently |
+
+### Lab 8
+
+| Name | Value |
+| :--- | :--- |
+| Name | 6 - FileIO|
+| Description | Lab fixing the fix me's in a program that define and call functions. The functions call to take in a file of integers and to write to a new file the list of integers in ascending and dedcending order, as well as the largest and smallest number|
+| Due Date | 10-May-22 |
+| Status | Finished |
+| Location | https://github.com/Loganfreer/CS0-Loganfreer/tree/main/Labs/FileIO |
+| Self Grade | 100% |
+| Notes | completed the fix me's required and the program runs efficently |

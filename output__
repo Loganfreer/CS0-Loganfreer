@@ -1,0 +1,40 @@
+Numbers entered:
+10
+5
+100
+99
+101
+89
+99
+37
+43
+123
+
+Numbers sorted in ascending order:
+5
+10
+37
+43
+89
+99
+99
+100
+101
+123
+
+Numbers sorted in descending order:
+123
+101
+100
+99
+99
+89
+43
+37
+10
+5
+
+The largest number is:
+123
+The smallest number is:
+5

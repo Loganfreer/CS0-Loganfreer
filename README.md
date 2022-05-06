@@ -171,7 +171,7 @@
 
 | Name | Value |
 | :--- | :--- |
-| Name | 6 - Lists|
+| Name | 7 - Lists|
 | Description | Lab fixing the fix me's in a program that define and call functions. The functions call for built in functions attached to lists in order to sort a list of integers in ascending and descending order. And the largest and smallest numbers and their indexes are identified|
 | Due Date | 26-Apr-22 |
 | Status | Finished |
@@ -183,7 +183,7 @@
 
 | Name | Value |
 | :--- | :--- |
-| Name | 6 - FileIO|
+| Name | 8 - FileIO|
 | Description | Lab fixing the fix me's in a program that define and call functions. The functions call to take in a file of integers and to write to a new file the list of integers in ascending and dedcending order, as well as the largest and smallest number|
 | Due Date | 10-May-22 |
 | Status | Finished |

@@ -15,14 +15,17 @@ def greet_user(user):
 def choose_word(words):
     game_word = random.choice(words)
     return str(game_word)
+         
 
-def guess_check(word_list, guess, display_word):
-    for i in range(len(word_list)):
-        if word_list[i] == guess:
-            display_word[i] = guess
-            return True
-        else:
-            return False
+def play_again():
+    response = input("It looks like your game is over, would you like to play again? [y/n] ")
+    if response.lower()  == 'y' or response.lower() == 'yes':
+        print("Alright! Lets play again")
+        return True
+    else:
+        print("Goodbye")
+        return False
+                    
     
 
 
@@ -121,37 +124,61 @@ def game(game_word):
     attempts = 0
     word_list = list(game_word)
     blank_word = []
+    letters_guessed = []
     print(f"{word_list}")
     
     print(f"{stages[0]}")
 
     for k in range(len(word_list)):
-        blank_word = "_ "*(k+1)
+        blank_word.append("_ ")
+
+    print(f"{blank_word}")
+    
     while (attempts <= 6):
         guess = input("Guess a letter of the alpabet that you think is in the mystery word: ")
-        guess = guess.lower
-        if guess_check(word_list, guess, blank_word):
-            print("Great guess!")
-            print(f"{stages[attempts]}")
-            print(f"{blank_word}")
+        guess = guess.lower()
+        if len(guess) == 1 and guess.isalpha(): 
+            if guess in letters_guessed:
+                print(f"You already guessed the letter {guess}")
+                print(f"{stages[attempts]}")
+                print(f"{letters_guessed}")
+                print(f"{blank_word}")
+            elif guess not in game_word:
+                print(f"{guess} is not in the secret word sorry")
+                attempts += 1
+                letters_guessed.append(guess)
+                print(f"{stages[attempts]}")
+                print(f"{letters_guessed}")
+                print(f"{blank_word}")
+            else:
+                print(f"Good job! {guess} is in the secret word")
+                for i in range(len(word_list)):
+                    if guess in word_list[i]:
+                        blank_word[i] = guess
+                letters_guessed.append(guess)
+                print(f"{stages[attempts]}")
+                print(f"{letters_guessed}")
+                print(f"{blank_word}")
+        elif len(guess) == len(game_word) and guess.isalpha():
+            if guess != game_word:
+                print(f'{guess} is not the secret word')
+                attempts += 1
+                print(f"{stages[attempts]}")
+                print(f"{letters_guessed}")
+                print(f"{blank_word}")
+            else:
+                print(f"Congratualations! The secret word was indeed {guess}")
+                break
         else:
-            print("That wasn't in there, sorry, try again")
-            attempts += 1
-            print({stages[attempts]})
-            print(f"{blank_word}")
-
-
-
+            print("Not a valid input")
         if attempts == 6:
-            play_again = True
-            while (play_again):
-                response = input("It looks like you ran out of tries, would you like to give it another shot? [y/n] ")
-                if not response.lower()  == 'y' or not response.lower() == 'yes':
-                    play_again = False
+            print("Sorry you seem to have lost the game")
+            break
+        if blank_word == word_list:
+            print(f"Conratualtions! you found the secret word {game_word}")
+            break
 
-               
-        
-
+            
 
 def main():
     words = []
@@ -164,6 +191,13 @@ def main():
     game_word = choose_word(words)
     print(game_word)
     game(game_word)
+    while play_again():
+        game_word = choose_word(words)
+        print(game_word)
+        game(game_word)
+    
+    
+
         
 
 if __name__ == "__main__":

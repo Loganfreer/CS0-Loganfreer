@@ -130,7 +130,7 @@ def game(game_word):
     print(f"{stages[0]}")
 
     for k in range(len(word_list)):
-        blank_word.append("_ ")
+        blank_word.append("_")
 
     print(f"{blank_word}")
     
@@ -144,14 +144,14 @@ def game(game_word):
                 print(f"{letters_guessed}")
                 print(f"{blank_word}")
             elif guess not in game_word:
-                print(f"{guess} is not in the secret word sorry")
+                print(f"{guess} is not in the mystery word sorry")
                 attempts += 1
                 letters_guessed.append(guess)
                 print(f"{stages[attempts]}")
                 print(f"{letters_guessed}")
                 print(f"{blank_word}")
             else:
-                print(f"Good job! {guess} is in the secret word")
+                print(f"Good job! {guess} is in the mystery word")
                 for i in range(len(word_list)):
                     if guess in word_list[i]:
                         blank_word[i] = guess
@@ -161,13 +161,13 @@ def game(game_word):
                 print(f"{blank_word}")
         elif len(guess) == len(game_word) and guess.isalpha():
             if guess != game_word:
-                print(f'{guess} is not the secret word')
+                print(f'{guess} is not the mystery word')
                 attempts += 1
                 print(f"{stages[attempts]}")
                 print(f"{letters_guessed}")
                 print(f"{blank_word}")
             else:
-                print(f"Congratualations! The secret word was indeed {guess}")
+                print(f"Congratualations! The mystery word was indeed {guess}")
                 break
         else:
             print("Not a valid input")

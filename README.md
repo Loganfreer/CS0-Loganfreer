@@ -93,6 +93,17 @@
 | Self Grade | 110% |
 | Notes |  |
 
+### Final Project
+| Name | Value |
+| :--- | :--- |
+| Name | Hangman Game |
+| Description | Program that runs a hangman game using the methods discussed throughout the semester |
+| Due Date | 17-May-2022 |
+| Status | Finished |
+| Location | https://github.com/Loganfreer/CS0-Loganfreer/tree/main/Lectures/Assignments/Final |
+| Self Grade | 110% |
+| Notes |  |
+
 ## Labs
 
 ### Lab #1

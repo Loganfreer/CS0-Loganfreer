@@ -125,7 +125,7 @@ def game(game_word):
     word_list = list(game_word)
     blank_word = []
     letters_guessed = []
-    print(f"{word_list}")
+
     
     print(f"{stages[0]}")
 
@@ -175,7 +175,7 @@ def game(game_word):
             print("Sorry you seem to have lost the game")
             break
         if blank_word == word_list:
-            print(f"Conratualtions! you found the secret word {game_word}")
+            print(f"Conratualtions! you found the mystery word {game_word}")
             break
 
             
@@ -189,11 +189,9 @@ def main():
     user = user_name()
     greet_user(user)
     game_word = choose_word(words)
-    print(game_word)
     game(game_word)
     while play_again():
         game_word = choose_word(words)
-        print(game_word)
         game(game_word)
     
     

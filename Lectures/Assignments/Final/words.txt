@@ -18,3 +18,9 @@ police
 phone
 friend
 yesterday
+bicycle
+ice
+cat
+animal
+desk
+paper

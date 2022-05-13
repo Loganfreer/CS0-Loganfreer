@@ -231,6 +231,7 @@ def main():
     game(game_word)
     #Once the game function is over runs the play again function 
     while play_again():
+        clearScreen()
         game_word = choose_word(words)
         game(game_word)
     

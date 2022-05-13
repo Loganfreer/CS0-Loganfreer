@@ -40,6 +40,12 @@ def clearScreen():
     else:
         os.system('clear')  # run clear command
 
+def printList(List):
+    #Function used in the list lab, prints out the values of a list without brakcets and and qoutations
+    for ch in List:
+        print(ch, end=' ')
+    print()
+
 
 
 def game(game_word):
@@ -150,7 +156,7 @@ def game(game_word):
     for k in range(len(word_list)):
         blank_word.append("_")
     #Print out blank word list at the beginning of the game so user can see the number of characters in the word
-    print(f"{blank_word}")
+    printList(blank_word)
     
     #Main loop of the game
     while (attempts <= 6):
@@ -164,16 +170,18 @@ def game(game_word):
             if guess in letters_guessed:
                 print(f"You already guessed the letter {guess}")
                 print(f"{stages[attempts]}")
-                print(f"{letters_guessed}")
-                print(f"{blank_word}")
+                printList(letters_guessed)
+                print("\n")
+                printList(blank_word)
             elif guess not in game_word:
                 #Checks to see it the guess is not in game word and increases the attempts counter
                 print(f"{guess} is not in the mystery word sorry")
                 attempts += 1
                 letters_guessed.append(guess)
                 print(f"{stages[attempts]}")
-                print(f"{letters_guessed}")
-                print(f"{blank_word}")
+                printList(letters_guessed)
+                print("\n")
+                printList(blank_word)
             else:
                 #Checks to seee that the guess is in tha game word, and then adds it to the correct spot in the blank word list
                 #andn appends tht guess to letters guessed
@@ -183,8 +191,9 @@ def game(game_word):
                         blank_word[i] = guess
                 letters_guessed.append(guess)
                 print(f"{stages[attempts]}")
-                print(f"{letters_guessed}")
-                print(f"{blank_word}")
+                printList(letters_guessed)
+                print("\n")
+                printList(blank_word)
         elif len(guess) == len(game_word) and guess.isalpha():
             #Checks to see if the user is trying to guess the game word
             if guess != game_word:
@@ -192,8 +201,9 @@ def game(game_word):
                 print(f'{guess} is not the mystery word')
                 attempts += 1
                 print(f"{stages[attempts]}")
-                print(f"{letters_guessed}")
-                print(f"{blank_word}")
+                printList(letters_guessed)
+                print("\n")
+                printList(blank_word)
             else:
                 #If guess is the game word then the user is congratulated and the game function breaks out
                 print(f"Congratualations! The mystery word was indeed {guess}")

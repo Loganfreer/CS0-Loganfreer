@@ -16,7 +16,7 @@ def greet_user(user):
     print(f"Nice to meet you {user}, your goal is to guess the mystery word in less than 6 tries")
 
 def choose_word(words):
-    #Choose a random word from the  imported word file
+    #Choose a random word from the imported word file
     game_word = random.choice(words)
     return str(game_word)
          

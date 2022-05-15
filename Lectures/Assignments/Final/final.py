@@ -25,7 +25,6 @@ def play_again():
     #Function asking the user if they want to play hangman again
     response = input("It looks like your game is over, would you like to play again? [y/n] ")
     if response.lower()  == 'y' or response.lower() == 'yes':
-        print("Alright! Lets play again")
         return True
     else:
         print("Goodbye")
@@ -241,8 +240,8 @@ def main():
     game(game_word)
     #Once the game function is over runs the play again function 
     while play_again():
-        clearScreen()
         game_word = choose_word(words)
+        clearScreen()
         game(game_word)
     
     

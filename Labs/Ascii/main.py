@@ -12,3 +12,5 @@ print('  (>  0 < )     *   By: Logan Freerksen *     ( " )_( " )           ')
 print('    >>X<<       *       CSCI 110        *       ')
 print('    / O \\       *************************')
 '''This is my finished ASCII art'''
+
+print('This is a test')
